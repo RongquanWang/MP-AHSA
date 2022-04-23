@@ -1,1 +1,8 @@
 # MP-AHSA
+
+Background:
+Accurate identification of protein complexes in protein-protein interaction (PPI) networks is crucial for understanding the principles of cellular organization. Most computational methods ignore the fact that proteins in a protein complex have a functional similarity as well as they are co-localized and co-expressed at the same place and time, respectively. Meanwhile, the parameters of the current methods are specified by users, so these methods cannot effectively deal with different input PPI networks.
+Result:
+To address these issues, this study proposes a new method called MP-AHSA to detect protein complexes with multiple properties, and an adaptation harmony search algorithm is developed to optimize the parameters of the MP algorithm. First, a weighted PPI network is constructed using functional annotations, and multiple biological properties and the Markov cluster algorithm (MCL) are used to mine protein complex cores. Then, a fitness function is defined, and a protein complex forming strategy is designed to detect attachment proteins and form protein complexes. Next, a protein complex filtering strategy is formulated to filter out the protein complexes. Finally, an adaptation harmony search algorithm is developed to automatically determine the parameters of the MP algorithm.
+Conclusions:
+Experimental results show that the proposed MP-AHSA method outperforms 14 state-of-the-art methods for the identification of protein complexes. Also, the functional enrichment analyses reveal that the protein complexes identified by MP-AHSA algorithm have significant biological relevance.
